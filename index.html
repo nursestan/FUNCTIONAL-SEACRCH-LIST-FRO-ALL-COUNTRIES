@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Rest Countries</h1>
+
+   <!-- Region filter -->
+   <div>
+       <select id="region-filter">
+           <option value="" class=""> <br>Filter by Region </option>
+           <option value="Africa">Africa</option>
+           <option value="Americas">Americas</option>
+           <option value="Asia">Asia</option>
+           <option value="Europe">Europe</option>
+           <option value="Oceania">Oceania</option>
+       </select>
+   </div>
+
+   <!-- Search bar -->
+   <input type="text" id="search-bar" placeholder="Search for a country..." />
+
+   <!-- Countries container -->
+   <div class="countries" id="countries"></div>
+
+   <script src="rest.js"></script> <!-- Ensure this path is correct -->
+</body>
+</html>
